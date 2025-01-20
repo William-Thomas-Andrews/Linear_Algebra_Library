@@ -2,7 +2,7 @@
 
 ### Features:
 
-* Matrix creasion by passing in C-style array, std::array, or std::vector. Supports valid manual dimension sizing
+* Matrix creasion by passing in C-style array, or std::vector. Supports valid manual dimension sizing
 
 * Arithmetic or non-arithmetic data
 
