@@ -1,4 +1,4 @@
-# This is a basic Linear Algebra Library in C++
+# A Basic Linear Algebra Library in C++
 
 ### Features:
 
@@ -15,6 +15,8 @@
 * The << operator (it performs the same task as Matrix.print())
 
 * Indexing using (i, j), with assignment capabilities (using the referenced item)
+
+* Indexing using (i), returns a Matrix of the indexed row
 
 * Matrix.Transpose()
 
