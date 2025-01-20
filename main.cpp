@@ -1,4 +1,4 @@
-#include "m.cpp"
+#include "matrix.cpp"
 #include <iostream>
 #include <string>
 #include <stdexcept> 
@@ -184,7 +184,14 @@ int main()
     Matrix<int> matrix16 = Matrix<int>(data20, 3, 3);
     Matrix<int> matrix17 = dotProduct(matrix15, matrix16);
     std::cout << matrix17 << std::endl;
-    
+
+    std::cout << std::endl;
+    std::cout << std::endl;
+    std::cout << "Test Case 13: Non-arithmetic matrices" << std::endl;
+    std::vector<std::string> data21 = {"this", "is", "a", "matrix"};
+    Matrix<std::string> matrix18 = Matrix<std::string>(data21, 2, 2);
+    std::cout << matrix18 << std::endl;
+    // matrix18 + matrix18; / Two non-arithmetic matrices cannot use arithmetic operations.
 
     return 0;
 }
